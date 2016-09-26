@@ -1,0 +1,201 @@
+body {
+
+	/*background: url("../images/bg.jpg");
+	background-size: cover;*/
+	height: 2000px;
+	margin: 0px;
+}
+
+#header {
+	height: 350px;
+	background: white;
+	margin:0px;
+	padding-top: 80px;
+	padding-left: 100px;
+    text-align: left;
+}
+
+#main1 {
+	height: 500px;
+	/*background: yellow;*/
+}
+
+#sidemain1 {
+	height: 100%;
+	width:50%;
+    background: url("../images/tcmf.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#sidemain1b {
+	height: 100%;
+	width:50%;
+	background: url("../images/dsf.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#main2 {
+	height: 500px;
+	/*background: blue;*/
+
+}
+
+#sidemain2 {
+	height: 100%;
+	width:50%;
+	background: url("../images/rvf.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#sidemain2b {
+	height: 100%;
+	width:50%;
+	background: url("../images/wff.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#main3 {
+	height: 500px;
+    /*background: pink;*/
+}
+
+#sidemain3 {
+	height: 100%;
+	width:50%;
+	background: url("../images/edf.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#sidemain3b {
+	height: 100%;
+	width:50%;
+	background: url("../images/clf.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#footer {
+	height: 150px;
+	/*background: gray;*/
+}
+
+#sidefooter {
+	height: 100%;
+	width:50%;
+	float: right;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#sidefooterb {
+	height: 100%;
+	width:50%;
+	text-align: center;
+	padding-top: 35px;
+	float: left;
+	
+}
+
+.icons {
+	display: block;
+	margin:0px auto;
+	padding: 100px;
+}
+
+.icontext {
+	height: 100%;
+	text-align: center;
+	/*background: url("../images/tour1.jpg");
+	background-size: 99.7% 99.5%;
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+
+input[type="submit"] {
+
+    background: rgba(20,20,20,1);
+    padding: 15px;
+    border: 0px;
+    color: white;
+}
+
+input[type="email"] {
+
+    background: rgba(230,230,230,1);
+    padding: 15px;
+    border: 0px;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 8px;
+	margin: -80px auto;
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	font-style: 200;
+	max-width: 280px;
+	margin: 100px auto;
+	text-decoration: none;
+	color: white;
+	text-align: justify-center;
+}
+
+ul {
+	text-align: center;
+	margin-top: -112px;
+	margin-left: 180px;
+}
+
+li {
+	font-family: 'Dosis', sans-serif;
+	font-weight: bolder;
+	display: inline;
+	padding: 0px 90px 0px 90px;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	width: 90%;
+	margin: 40px auto;
+}
+
+#sm {
+	display: inline;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.smlinks {
+	margin: 0px 30px 0px 30px;
+}
+
+.navlinks {
+	text-decoration: none;
+	color: black;
+}
+
+
