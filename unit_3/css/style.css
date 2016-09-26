@@ -2,21 +2,25 @@ body {
 
 	/*background: url("../images/bg.jpg");
 	background-size: cover;*/
-	height: 2000px;
+	height: 1600px;
 	margin: 0px;
 }
 
 #header {
-	height: 350px;
-	background: white;
-	margin:0px;
-	padding-top: 80px;
+	height: 200px;
+	width: 100%;
+	background: rgba(255,255,255,.8);
+	margin-bottom:0px;
+	margin-top: -200px;
+	padding-top: 0px;
 	padding-left: 100px;
     text-align: left;
+    position: fixed;
 }
 
 #main1 {
 	height: 500px;
+	margin-top: 200px;
 	/*background: yellow;*/
 }
 
@@ -92,7 +96,7 @@ body {
 }
 
 #footer {
-	height: 150px;
+	height: 120px;
 	/*background: gray;*/
 }
 
@@ -196,6 +200,45 @@ hr {
 .navlinks {
 	text-decoration: none;
 	color: black;
+}
+#chat {
+	position: fixed;
+	width: 200px;
+	height: 150px;
+	bottom: 20px;
+	right: 20px;
+	background: rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+
+.chattext {
+
+	position: absolute;
+	top: -80px;
+	left: 20px;
+
+}
+.chatbox {
+
+	position: absolute;
+	width: 60px;
+	height: 20px;
+	top: 100px;
+	left: 20px;
+
+}
+input[type="type"] {
+
+	width: 150px;
+	border: 0px;
+	padding: 5px;
+}
+
+.hey {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 3px;
 }
 
 
