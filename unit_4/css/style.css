@@ -1,0 +1,190 @@
+html {
+	height: 2500px;
+}
+
+header {
+	text-align: center;
+	height: 570px;
+	width: 100%;
+    background: url("../images/headerbg.jpg");
+    background-size: cover;
+}
+
+nav {
+	text-align: center;
+	background: rgba(10,10,10,1);
+	margin: 0 auto;
+}
+
+ul {
+	text-align: center;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+li {
+	display: inline;
+    padding: 87px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Buda', cursive;
+}
+
+hr {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+
+	max-width: 75%;
+	color: white;
+	text-align: justify;
+	text-align-last: center;
+	margin: 0 auto;
+	line-height: 2em;
+	font-family: 'Buda', cursive;
+	letter-spacing: .2em;
+}
+
+footer {
+	background-color: rgba(50,50,50,1);
+	height: 150px;
+	width: 100%;
+}
+
+#headerlogo {
+	text-align: right;
+	padding-top: 180px;
+	padding-right: 200px;
+}
+
+#statment {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding: 60px;
+	height: 150px;
+	text-align: center;
+	background: rgba(50,50,50,1);	
+}
+
+#eng {
+	position: relative;
+	text-align: center;
+    height: 600px;
+	margin: 0 auto;
+	background: url("../images/pm1.jpg");
+	background-size: cover;
+}
+
+#bm {
+	position: relative;
+	text-align: center;
+    height: 600px;
+	margin: 0 auto;
+	background: url("../images/bm1.jpg");
+	background-size: cover;
+}
+
+#it {
+	position: relative;
+	text-align: center;
+    height: 600px;
+	margin: 0 auto;
+	background: url("../images/it1.jpg");
+	background-size: cover;
+}
+
+.desc {
+
+	position: relative;
+	text-align: justify;
+	text-align-last: center;
+	top: 330px;
+	color: black;
+	max-width: 75%;
+	margin: 0 auto;
+	line-height: 2em;
+	font-family: 'Buda', cursive;
+	font-style: bold;
+}
+
+h1 {
+	position: absolute;
+    margin: 0 auto;
+	text-align: center;
+	bottom: 300px;
+	right: 570px;
+	font-family: 'Cormorant', serif;
+	font-size: 6em;
+}
+
+h2 {
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 295px;
+	right: 420px;
+	font-family: 'Cormorant', serif;
+	font-size: 1.5em;
+	letter-spacing: .5em;
+}
+
+.courses {
+	color: black;
+	position: absolute;
+	bottom: 10px;
+}
+
+.courselinks {
+	color: black;
+	border: 5px;
+	border-color: black;
+	padding: 15px;
+}
+
+
+#chat {
+	position: fixed;
+	width: 200px;
+	height: 150px;
+	bottom: 20px;
+	right: 20px;
+	background: rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+
+.chattext {
+	position: absolute;
+	top: -80px;
+	left: 20px;
+}
+
+.chatbox {
+	position: absolute;
+	width: 60px;
+	height: 20px;
+	top: 100px;
+	left: 20px;
+}
+
+input[type="type"] {
+	width: 150px;
+	border: 0px;
+	padding: 5px;
+}
+
+.hey {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+
+
+
