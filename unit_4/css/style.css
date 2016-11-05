@@ -10,6 +10,10 @@ header {
     background-size: cover;
 }
 
+body {
+	text-align: center;
+}
+
 nav {
 	text-align: center;
 	background: rgba(10,10,10,1);
@@ -25,7 +29,7 @@ ul {
 
 li {
 	display: inline;
-    padding: 87px;
+    padding: 60px;
     color: white;
     font-size: 1em;
     font-family: 'Buda', cursive;
@@ -37,14 +41,24 @@ hr {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+
+.navlinks {
+	text-decoration: none;
+	color: white;
+	padding: 0 30px;
+}
+
+.navlinks:hover {
+	background-color: red;
 }
 
 p {
 
 	max-width: 75%;
 	color: white;
-	text-align: justify;
+	text-align: center;
 	text-align-last: center;
 	margin: 0 auto;
 	line-height: 2em;
@@ -53,15 +67,14 @@ p {
 }
 
 footer {
-	background-color: rgba(50,50,50,1);
-	height: 150px;
+	background-color: black;
+	height: 350px;
 	width: 100%;
 }
 
 #headerlogo {
-	text-align: right;
+	text-align: center;
 	padding-top: 180px;
-	padding-right: 200px;
 }
 
 #statment {
@@ -70,120 +83,115 @@ footer {
 	padding: 60px;
 	height: 150px;
 	text-align: center;
-	background: rgba(50,50,50,1);	
+	background: black;	
 }
 
 #eng {
-	position: relative;
+	
 	text-align: center;
     height: 600px;
-	margin: 0 auto;
+	margin: 0;
 	background: url("../images/pm1.jpg");
 	background-size: cover;
+	position: relative;
 }
 
 #bm {
-	position: relative;
 	text-align: center;
     height: 600px;
-	margin: 0 auto;
+	margin: 0;
 	background: url("../images/bm1.jpg");
 	background-size: cover;
+	position: relative;
 }
 
 #it {
-	position: relative;
 	text-align: center;
     height: 600px;
-	margin: 0 auto;
+	margin: 0;
 	background: url("../images/it1.jpg");
 	background-size: cover;
+	position: relative;
 }
 
 .desc {
-
-	position: relative;
-	text-align: justify;
-	text-align-last: center;
-	top: 330px;
-	color: black;
-	max-width: 75%;
-	margin: 0 auto;
-	line-height: 2em;
+	text-align: center;
+	padding-top: -250px;
+	color: gray;
+	max-width: 35%;
+	margin: 40 auto;
+	line-height: 1.1em;
 	font-family: 'Buda', cursive;
 	font-style: bold;
 }
 
 h1 {
-	position: absolute;
+	display: inline-block;
+	background-color: black;
     margin: 0 auto;
 	text-align: center;
-	bottom: 300px;
-	right: 570px;
+	padding: 100px 170px 250px 170px;
+	color: white;
 	font-family: 'Cormorant', serif;
 	font-size: 6em;
 }
 
 h2 {
-	position: absolute;
 	margin: 0 auto;
 	text-align: center;
-	bottom: 295px;
-	right: 420px;
+	margin-top: -235px;
+	color: white;
 	font-family: 'Cormorant', serif;
 	font-size: 1.5em;
 	letter-spacing: .5em;
 }
 
 .courses {
-	color: black;
 	position: absolute;
-	bottom: 10px;
+	padding: 30px 0px 65px 0px;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
 }
 
 .courselinks {
-	color: black;
-	border: 5px;
-	border-color: black;
-	padding: 15px;
-}
-
-
-#chat {
-	position: fixed;
-	width: 200px;
-	height: 150px;
-	bottom: 20px;
-	right: 20px;
-	background: rgba(0,0,0,.2);
-	border-radius: 10px;
-}
-
-.chattext {
-	position: absolute;
-	top: -80px;
-	left: 20px;
-}
-
-.chatbox {
-	position: absolute;
-	width: 60px;
-	height: 20px;
-	top: 100px;
-	left: 20px;
-}
-
-input[type="type"] {
-	width: 150px;
-	border: 0px;
-	padding: 5px;
-}
-
-.hey {
 	color: white;
-	font-weight: bold;
-	font-style: italic;
-	letter-spacing: 3px;
+	padding: 30px;
+	transform: rotate(45deg);
+}
+
+.plus {
+	position: relative;
+	display: inline-block;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,.1);
+    padding: 0px 10px 0px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.plus .plustext {
+    visibility: hidden;
+    width: 100px;
+    font-size: .7em;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    
+    position: absolute;
+    z-index: 1;
+    top: 130%;
+    left: 50%;
+    margin-left: -160%;
+}
+
+.plus:hover .plustext {
+    visibility: visible;
 }
 
 
