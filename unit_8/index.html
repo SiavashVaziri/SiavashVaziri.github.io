@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ARCOMP</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logosmall.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+ 
+
+  <div class="topnav">
+
+  <img class="logo" src="images/logo.png" alt="H&T">
+
+  </div>
+
+  <header>
+
+<div class="w3-content w3-section" style="width:100%">
+  <img class="mySlides" src="images/1.jpg" style="width:100%">
+  <img class="mySlides" src="images/2.jpg" style="width:100%">
+  <img class="mySlides" src="images/3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	
+  </header>
+
+  <main>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c1.jpg" alt="l"></a>	
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c2.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c3.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c4.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c5.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c6.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c7.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c8.jpg" alt="l"></a>
+    </section>
+
+    <section class="comp">
+      <a class="complink" href="#"><img src="images/c9.jpg" alt="l"></a>
+    </section>
+  	
+  </main>
+
+  <aside>
+
+  <p class="asidehead">ARCOMP NEWS</p>
+  <hr>
+
+  <div class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  <div class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  <div class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  	
+  </aside>
+
+  <div Class="footerblog">
+    
+  <div class="footernews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  <div class="footernews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  <div class="footernews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... <br><a href="#" class="readmore">Read More&#9658</a></div>
+
+  </div>
+
+  <footer>
+  	
+  </footer>
+
+</body>
+
+</html>
